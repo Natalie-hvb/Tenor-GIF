@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #f3f3f3;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+h3{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+#output {
+    width: 100%;
+    column-count: 4;
+    column-gap: 10px;
+}
+
+#output > div {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+    #output {
+      column-count: 3;
+    }
+  }
